@@ -98,7 +98,7 @@ const renderCards =  async (productsArr) => {
         <div class="card-body">
           <h5 class="card-title">${product.data().Nombre}</h5>
           <p class="card-text text-success">$${product.data().Precio} </p>
-          <a href="#" class="btn btn-dark buybtn" id=${product.id}>Comprar</a>
+          <a href="#" class="btn btn-secondary resaltador buybtn" id=${product.id}>Comprar</a>
         </div>
       </div>`
 

@@ -1,6 +1,13 @@
-header {
+/* header {
     height: 10vh;
-}
+} */
+.resaltador {
+    transition: .4s;
+    }
+    .resaltador:hover {
+    transition: .4s;
+    background-color: rgba(3, 169, 244, 0.7) ;
+    }
 
 .generalContainer { 
     height: 90vh;
@@ -13,7 +20,7 @@ header {
 }
 .cartContainer{
     height: 100%;
-    background-color: #dee2e6;
+    /* background-color: #dee2e6; */
     overflow-y: scroll;
     /* display: flex; */
     /* align-items: center; */
